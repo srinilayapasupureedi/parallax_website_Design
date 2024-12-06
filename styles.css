@@ -1,0 +1,81 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing:inherit;
+}
+body
+{
+    margin:0;
+    padding:0;
+}
+.first-image,.second-image,.third-image,.fourth-image
+{
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.first-image
+{
+    background-image:url(2.jpeg);
+    opacity:0.8;
+    min-height:500px;
+
+}
+.second-image
+{
+    background-image:url(4a.webp);
+    min-height:500px;
+}
+.third-image
+{
+    background-image:url(1a.webp);
+    min-height:500px;
+    opacity:0.8;
+
+}
+.fourth-image
+{
+    background-image:url(3.jpeg);
+    
+    min-height:500px;
+}
+h1{
+    text-align:center;
+}
+section{
+    text-align:center;
+    padding:3rem 5rem;
+}
+.section-light
+{
+    background-color:#F9DBBA;
+    
+}
+.section-dark{
+    background-color:#EECAD5;
+    
+}
+.image{
+    /* using flex same thing can be achieved */
+    /* display:flex;
+       align-items: center;
+    /* justify-items:center; */
+     position:relative;
+
+}
+.image div{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    letter-spacing:5px;
+    text-transform: capitalize;
+    color:white;
+
+} 
+.image span{
+    color:black;
+    background-color:beige;
+    padding:10px;
+}
