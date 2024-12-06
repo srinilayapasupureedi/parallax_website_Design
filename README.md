@@ -13,8 +13,9 @@ Welcome to the **Parallax Website** project! This website demonstrates a simple,
 ---
 
 ## 🎥 Live Demo
-Watch the live demo video to see the website in action:
-[![Watch the Demo](https://drive.google.com/file/d/1dtmDIHteJNBZF7ynzlkN9hSFHlipApHw/view?usp=drive_link)
+## Live Demo (Video)
+[Watch the Demo Video](https://drive.google.com/file/d/1dtmDIHteJNBZF7ynzlkN9hSFHlipApHw/view?usp=drive_link)
+
 🛠️ Technologies Used
 HTML5: For structuring the content.
 CSS3: For styling and implementing parallax effects.
